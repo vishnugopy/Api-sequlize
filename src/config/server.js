@@ -4,11 +4,11 @@ class Server {
         this.#http = http;
     }
 
-    middlewares(middlewares) {
-        for (const key in middlewares) {
-            this.#http.use(middleware[key]);
-        }
-    }
+    // middlewares(middlewares) {
+    //     for (const key in middlewares) {
+    //         this.#http.use(middleware[key]);
+    //     }
+    // }
 
     routes(routes) {
         for (const path in routes) {
