@@ -1,4 +1,4 @@
 api skeleton using es6
 
-mosly following antoine 
+mostly following antoine 
 https://github.com/rapatte/api-skeleton
